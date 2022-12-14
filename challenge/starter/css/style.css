@@ -28,9 +28,7 @@ p {
 header{
   width: 100vw; 
   height: 50px;
-  background-color: blue;
-  position: absolute;
-  top: 0; 
+  background-color: rgb(22, 56, 36);
   display: flex;
 }
 
@@ -39,18 +37,24 @@ header{
 .hero-banner {
   width: 100vw; 
   height: 400px; 
-  background-image: url(../images/02-hero-bg.jpg);
+  background-image: url(
+    ../images/hero-bg-robert-anasch-u6AQYn1tMSE-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
 }
 
 #profile_icon {
-  border: 5px solid white; 
+  border: 5px solid rgb(22, 56, 36); 
   border-radius: 50%;
+  margin: 5px;
   width: 20%; 
-  max-width: 300px;
-  position: sticky;
-  top: 50%; 
-  bottom: 80px; 
+  max-width: 250px;
+  max-height: 250px; 
+}
 
+#hero_subtitle {
+  width: 30%;
+  justify-self: flex-end;
 }
