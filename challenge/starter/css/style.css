@@ -94,4 +94,62 @@ header .nav-link:hover {
 }
 
 /* main */
+.subHeading {
+  text-align: center;
+  text-decoration: underline;
+  padding: 2px 0; 
+  text-decoration-color: rgb(166 133 82);
+}
+
+.gridContainer {
+  margin: 0 auto;
+  width: 75%; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50%, 25%, 25%;
+  grid-template-areas: 
+  "landing_page landing_page landing_page"
+  "prework placeholder1 placeholder2"
+  "placeholder3 placeholder4 placeholder5";
+}
+
+.project {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 5%;
+}
+
+#landing_page {
+  grid-area: landing_page;
+  background-image: 
+    url(../images/daisyeverard.github.io_landing-page-we-are-green_.png);
+}
+
+#prework {
+  grid-area: prework;
+  background-image: 
+    url(../images/daisyeverard.github.io_prework-study-guide_.png);
+}
+
+#placeholder1 {
+  grid-area: placeholder1;
+  background-image: url(../images/02-portfolio-1.jpg);
+}
+#placeholder2 {
+  grid-area: placeholder2;
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+#placeholder3 {
+  grid-area: placeholder3;
+  background-image: url(../images/02-portfolio-3.jpg);
+}
+#placeholder4 {
+  grid-area: placeholder4; 
+  background-image: url(../images/02-portfolio-4.jpg);
+}
+#placeholder5 {
+  grid-area: placeholder5; 
+  background-image: url(../images/02-portfolio-1.jpg);
+}
 /* work */
