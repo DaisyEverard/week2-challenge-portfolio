@@ -1,4 +1,9 @@
 
+/* Colour Palette
+contrast colour
+rgb(166 133 82) #A68552 metallic sunburst
+*/
+
 /* Resets */
 * {
   box-sizing: border-box;
@@ -25,11 +30,30 @@ p {
 }
 
 /* Header */
-header{
+header {
   width: 100vw; 
   height: 50px;
-  background-color: rgb(22, 56, 36);
+  background-color: grey;
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header h1 {
+  margin: 5px;
+}
+
+header nav {
+  flex-grow: 1; 
+}
+header .nav-link {
+  text-decoration: none;
+  color: black;
+  margin: 5px; 
+}
+
+header .nav-link:hover {
+  color: white
 }
 
 
@@ -38,15 +62,14 @@ header{
   width: 100vw; 
   height: 400px; 
   background-image: url(
-    ../images/hero-bg-robert-anasch-u6AQYn1tMSE-unsplash.jpg);
+    ../images/02-hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
 }
 
-#profile_icon {
-  border: 5px solid rgb(22, 56, 36); 
+#profile_icon { 
   border-radius: 50%;
   margin: 5px;
   width: 20%; 
@@ -55,6 +78,20 @@ header{
 }
 
 #hero_subtitle {
+  z-index: 1;
   width: 30%;
+  height: 20%;
   justify-self: flex-end;
+  background-color: rgb(255,255,255,0.8);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border: 2px solid white;
 }
+
+#hero_subtitle h2 {
+  color: 
+}
+
+/* main */
+/* work */
