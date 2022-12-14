@@ -1,3 +1,5 @@
+
+/* Resets */
 * {
   box-sizing: border-box;
 }
@@ -20,4 +22,35 @@ h6 {
 
 p {
   margin: 0;
+}
+
+/* Header */
+header{
+  width: 100vw; 
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+  top: 0; 
+  display: flex;
+}
+
+
+/* Hero */
+.hero-banner {
+  width: 100vw; 
+  height: 400px; 
+  background-image: url(../images/02-hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#profile_icon {
+  border: 5px solid white; 
+  border-radius: 50%;
+  width: 20%; 
+  max-width: 300px;
+  position: sticky;
+  top: 50%; 
+  bottom: 80px; 
+
 }
