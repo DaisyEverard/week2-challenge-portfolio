@@ -37,6 +37,7 @@ header {
   background-color: grey;
   display: flex;
   align-items: center;
+  justify-content: left;
 }
 
 header h1 {
@@ -44,10 +45,14 @@ header h1 {
 }
 
 header nav {
-  flex-grow: 1;
+  width: 50%; 
+  display: flex;
+  justify-content: space-evenly;
 }
+
 header .nav-link {
   text-decoration: none;
+  font-size: large;
   color: black;
   margin: 5px; 
 }
@@ -55,6 +60,7 @@ header .nav-link {
 header .nav-link:hover {
   text-decoration: underline;
   text-decoration-color: rgb(215 155 62);
+  text-decoration-thickness: 3px;
 }
 
 
@@ -67,7 +73,7 @@ header .nav-link:hover {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 #profile_icon { 
@@ -76,6 +82,7 @@ header .nav-link:hover {
   width: 20%; 
   max-width: 250px;
   max-height: 250px; 
+  margin-bottom: -75px;
 } 
 
 #hero_subtitle {
@@ -88,6 +95,10 @@ header .nav-link:hover {
 }
 
 /* MAIN */
+
+#about {
+  margin-top: 100px;
+}
 .page-section {
   margin: 5px; 
   width: 100%; 
@@ -167,6 +178,40 @@ header .nav-link:hover {
   color: rgb(182, 182, 182); 
 }
 
+/* Contacts */
+
+/* #contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+#contact p {
+  margin: 0 auto; 
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+  font-size: large;
+}
+
+#contact p .contact-label {
+  font-weight: bold;
+
+  /* width: 30%;
+  max-width: 150px; 
+  text-align: right; */
+  float: left;
+  clear: both;
+}
+
+#contact p .contact-info {
+  /* width: 70%;
+  max-width: 350px;  
+  text-align: left; */
+  float: right; 
+}
+
+
 /* Media Queries */
 @media only screen and (max-width: 768px ) {
   .gridContainer{
@@ -180,7 +225,7 @@ header .nav-link:hover {
 }
 
 #hero_subtitle {
-  display: none;
+   right: 50px; 
 }
 
 #profile_icon {
@@ -203,29 +248,12 @@ header .nav-link:hover {
   "placeholder5";
   }
 
-  /* header {
-  width: 100vw; 
-  height: 50px;
-  background-color: grey;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
+  header {
+    height: 100px; 
+  }
 
-header h1 {
-  margin: 5px;
-}
-
-header nav {
-  flex-grow: 1; 
-}
-header .nav-link {
-  text-decoration: none;
-  color: black;
-  margin: 5px; 
-}
-
-header .nav-link:hover {
-  color: white
-} */
+  #hero_subtitle {
+    top: 120px;
+    right: 20px; 
+ }
 }

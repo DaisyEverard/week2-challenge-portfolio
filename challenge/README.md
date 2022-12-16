@@ -1,4 +1,4 @@
-# Unit 2 Challenge: Portfolio
+<!-- # Unit 2 Challenge: Portfolio
 
 ## Your Task
 
@@ -12,7 +12,7 @@ With these points in mind, in this challenge you’ll set yourself up for future
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs: -->
 
 <!-- * When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
 * When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
@@ -21,7 +21,7 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 * When images of the applications are clicked then the user is taken to that deployed application -->
 * When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
-## Mock-Up
+<!-- ## Mock-Up
 
 The following animation shows the web application's appearance and functionality:
 
@@ -35,7 +35,7 @@ This challenge is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria.
+* Satisfies all of the above acceptance criteria. -->
 
 ### Deployment: 32%
 
