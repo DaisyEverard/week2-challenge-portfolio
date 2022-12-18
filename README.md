@@ -5,7 +5,7 @@
 ## Preview
 
 <p align="center">
-  <img src="" width="350" alt="screenshot of site">
+  <img src="assets\images\Preview.png" width="350" alt="screenshot of site">
 </p>
 
 ## Description
@@ -35,7 +35,7 @@ The divs should be flex columns containing content for each type of info (here #
 ## Initial Wireframe
 
 <p align="center">
-  <img src="challenge\starter\images\Wireframe.png" width="350" alt="wireframe">
+  <img src="assets\images\Wireframe.png" width="350" alt="wireframe">
 </p>
 
 made using Figma
