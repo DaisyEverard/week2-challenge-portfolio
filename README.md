@@ -23,7 +23,6 @@ Contains:
 
 1. Positioning Profile Picture
 
-Put img in a div, not necessary in this instance but could be important with different setup.
 Used fixed absolute units for the height and width of the image then used media queries to make image size suitable for different displays. 
 
 2. Centrally positioning contacts

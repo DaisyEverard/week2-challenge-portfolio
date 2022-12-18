@@ -69,7 +69,7 @@ header .nav-link:hover {
   width: 100vw; 
   height: 400px; 
   background-image: url(
-    ../images/02-hero-bg.jpg);
+    ../assets/images/02-hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -137,30 +137,30 @@ header .nav-link:hover {
 #landing_page {
   grid-area: landing_page;
   background-image: 
-    url(../images/misty-forest-tobias-tullius-RhjVGxILcqE-unsplash.jpg);
+    url(../assets/images/misty-forest-tobias-tullius-RhjVGxILcqE-unsplash.jpg);
 }
 
 #prework {
   grid-area: prework;
   background-image: 
-    url(../images/Notesbooks.jpg);
+    url(../assets/images/Notesbooks.jpg);
 }
 
 #placeholder1 {
   grid-area: placeholder1;
-  background-image: url(../images/02-portfolio-1.jpg);
+  background-image: url(../assets/images/02-portfolio-1.jpg);
 }
 #placeholder2 {
   grid-area: placeholder2;
-  background-image: url(../images/02-portfolio-2.jpg);
+  background-image: url(../assets/images/02-portfolio-2.jpg);
 }
 #placeholder4 {
   grid-area: placeholder4; 
-  background-image: url(../images/02-portfolio-4.jpg);
+  background-image: url(../assets/images/02-portfolio-4.jpg);
 }
 #placeholder5 {
   grid-area: placeholder5; 
-  background-image: url(../images/02-portfolio-3.jpg);
+  background-image: url(../assets/images/02-portfolio-3.jpg);
 }
 
 
