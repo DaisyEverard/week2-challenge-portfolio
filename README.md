@@ -2,6 +2,8 @@
 
 ## Link to deployed site
 
+https://daisyeverard.github.io/week2-challenge-portfolio/
+ 
 ## Preview
 
 <p align="center">
