@@ -76,13 +76,11 @@ header .nav-link:hover {
   align-items: flex-end;
 }
 
-#profile_icon { 
+#profile_icon {
   border-radius: 50%;
-  margin: 5px;
-  width: 20%; 
-  max-width: 250px;
-  max-height: 250px; 
-  margin-bottom: -75px;
+  margin: 10px 10px -125px 5%;
+  width: 250px;
+  height: 250px;
 } 
 
 #hero_subtitle {
@@ -97,13 +95,15 @@ header .nav-link:hover {
 /* MAIN */
 
 #about {
-  margin-top: 100px;
+  width: 90%; 
+  margin: 100px auto 0 auto; 
 }
+
 .page-section {
   margin: 5px; 
-  width: 100%; 
-  
+  width: 100%;  
 }
+
 .subHeading {
   text-align: center;
   text-decoration: underline;
@@ -180,37 +180,34 @@ header .nav-link:hover {
 
 /* Contacts */
 
-/* #contact {
+#contact {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
-#contact p {
-  margin: 0 auto; 
-  width: 80%;
-  max-width: 300px;
-  text-align: center;
-  font-size: large;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%; 
+  margin: 0 auto;
 }
 
-#contact p .contact-label {
+.subHeading {
+  width: 100%; 
+}
+
+.contact-label, .contact-info {
+  display: flex;
+  flex-direction: column; 
+}
+
+.contact-label {
+  align-items: flex-end;
   font-weight: bold;
-
-  /* width: 30%;
-  max-width: 150px; 
-  text-align: right; */
-  float: left;
-  clear: both;
+  width: 45%; 
+  margin-right: 10px;
 }
 
-#contact p .contact-info {
-  /* width: 70%;
-  max-width: 350px;  
-  text-align: left; */
-  float: right; 
+.contact-info {
+  align-items: flex-start;
+  width: 40%; 
 }
-
 
 /* Media Queries */
 @media only screen and (max-width: 768px ) {
@@ -231,6 +228,7 @@ header .nav-link:hover {
 #profile_icon {
   height: 150px;
   width: 150px; 
+  margin: 10px 10px -75px 10px;
 }
 }
 
