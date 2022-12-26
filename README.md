@@ -7,7 +7,7 @@ https://daisyeverard.github.io/week2-challenge-portfolio/
 ## Preview
 
 <p align="center">
-  <img src="assets\images\Preview.png" width="350" alt="screenshot of site">
+  <img src="assets\images\Preview.png" width="500" alt="screenshot of site">
 </p>
 
 ## Description
